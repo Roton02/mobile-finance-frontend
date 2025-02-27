@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing:  border-box;
+}
+
+.max-w{
+  max-width: 1240px;
+  margin: auto;
+}
+
+nav li{
+  font-weight: 600;
+  padding: 4px 8px;
+  margin: 2px;
+  border-radius: 3px; 
+}
+nav li:hover{ 
+background-color: rgba(0, 0, 0, 0.436);
+color: rgb(255, 255, 255);
+}
+nav li:active{ 
+transform: scale(0.94);
+}
+.active-btn{
+  transform: scale(0.94);
+  border-radius: 3px;
+  padding: 4px 8px;
+  
+}
+
+.active{
+  text-decoration: underline;
+}
+
+
+.bb{
+  border:   solid red  2px;
+}
